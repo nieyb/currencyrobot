@@ -1,0 +1,14 @@
+### Python artifacts
+*.pyc
+venv/
+.idea/
+*.log
+*.pkl
+config.py
+robot/*.png
+*.jpg
+celerybeat-schedule
+logs/*
+pkl/*
+*.pkl
+*.example
