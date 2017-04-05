@@ -1,4 +1,7 @@
 # -*- coding:utf-8 -*-
+"""
+机器人启动index
+"""
 import datetime
 import json
 import sys
@@ -18,6 +21,10 @@ reload(sys)
 sys.setdefaultencoding('utf8')
 
 new_instance_b = itchat.new_instance()
+
+
+
+
 
 
 def get_login_robot():
@@ -441,3 +448,8 @@ if __name__ == '__main__':
     new_instance_b.auto_login(hotReload=True, enableCmdQR=enable_cmd_qr, picDir=None, qrCallback=None, loginCallback=None,
                       exitCallback=None, statusStorageDir='pkl/robot_default.pkl')
     new_instance_b.run(debug=True, blockThread=True)
+
+
+
+
+
